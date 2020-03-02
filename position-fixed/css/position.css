@@ -1,0 +1,54 @@
+body {
+    padding-top: 125px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-bottom: 1px solid #222f3e;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.header-logo {
+    height: 50px;
+}
+.banner {
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background-color: #5f27cd;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+.button {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 40px;
+    opacity: 0.95;
+    line-height: 43px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1dd1a1;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
