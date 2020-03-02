@@ -1,0 +1,24 @@
+/* 
+  Cross-browser 
+
+   dando um reset para limpar o comportamento do browser e deixar um comportamento padrao em todos os browsers.
+
+   Reset: para deixar o layout igual em todos os browsers
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+ul, ol, li {
+    list-style: none;
+}
