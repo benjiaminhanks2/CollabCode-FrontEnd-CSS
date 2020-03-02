@@ -1,0 +1,29 @@
+/* 
+33,333 - 100 = 66.667 
+
+display block ocupa a tela toda todo o eixo x */
+
+.elementExample {
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.elementExample_first {
+    background-color: #BE44AD;
+    position: relative;
+    top: 200px;
+}
+.elementExample_last {
+    background-color: #C0392B;
+    position: relative;
+}
+
+.elementExample_isActive {
+    z-index: 1;
+
+}
